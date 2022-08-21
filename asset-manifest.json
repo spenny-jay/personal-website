@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/personal-website/static/css/main.bec4f36d.css",
+    "main.js": "/personal-website/static/js/main.47d02012.js",
+    "static/media/pfp.png": "/personal-website/static/media/pfp.51862f5cbc7f127defcc.png",
+    "static/media/company-3.png": "/personal-website/static/media/company-3.f1b0f4e60255206860e9.png",
+    "index.html": "/personal-website/index.html",
+    "main.bec4f36d.css.map": "/personal-website/static/css/main.bec4f36d.css.map",
+    "main.47d02012.js.map": "/personal-website/static/js/main.47d02012.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bec4f36d.css",
+    "static/js/main.47d02012.js"
+  ]
+}

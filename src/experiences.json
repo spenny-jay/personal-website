@@ -1,0 +1,49 @@
+{
+    "experiences": [
+        {
+            "id": 1,
+            "title": "Software Engineer Intern",
+            "company": "Publicis Sapient",
+            "location": "New York, New York",
+            "startDate": "June 2022",
+            "endDate": "August 2022",
+            "accomplishments": [
+                "Collaborated amongst a team of 6 interns on a web-application aimed to schedule and modify in-store ads for a nationwide grocery chain",
+                "Developed an interactive dashboard where users can view all ad playlists on a weekly calendar, filter the scheduled playlists shown, and query store availabilities",
+                "Incorporated user login functionality to maintain user sessions and provide additional security to HTTP requests",
+                "Participated in an Agile environment and demoed my work and findings"
+            ]
+        },
+        {
+            "id" : 2,
+            "title": "Full-Stack Software Engineer Intern",
+            "company": "Case Consulting Inc.",
+            "location": "Leesburg, VA (remote)",
+            "startDate": "May 2021",
+            "endDate": "August 2021",
+            "accomplishments": [
+                "Worked amongst a team of 5 interns on a company web application to manage employee data, company expenses, and track employee skills",
+                "Utilized Vue.js, Node.js, DynamoDB and Lambda to develop and deploy new features throughout the internship",
+                "Led the design of an interactive Statistics Dashboard, a collection of customized charts illustrating company-wide data utilizing VueChart.js",
+                "Developed a resume parser to quickly scrape resume data to automatically update employee proﬁles using AWS AI services including Textract and Comprehend",
+                "Team utilized the agile methodology, Scrum, holding weekly Sprint Review and Sprint planning sessions to demo new features and discuss prioritization of future sprints",
+                "Lead weekly demos to Product Owner and stakeholders"
+            ]
+        },
+        {
+            "id": 3,
+            "title": "R&D Software Engineer Intern",
+            "company": "Ellucian",
+            "location": "Rochester, NY (remote)",
+            "startDate": "May 2020",
+            "endDate": "August 2020",
+            "accomplishments": [
+                "Created a large-scale automation tool to confirm and correct Ellucian Analytics charts' formatting data to save countless hours of manual QA review",
+                "Assisted in the development of highly readable, automated test reports, obtaining the results of unit tests covering API calls",
+                "Refactored a Jenkins job intended to test the functionality of API calls and the service's UI",
+                "Participated in an Agile environment and demoed my work and findings"
+            ]
+
+        }
+    ]
+}

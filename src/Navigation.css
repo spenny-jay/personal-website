@@ -1,0 +1,19 @@
+#resume {
+    text-decoration: none;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 4px 10px;
+    border-radius: 6px;
+    color: grey;
+    text-align: center;
+}
+
+#resume:hover {
+    transition: background-color 300ms;
+    background-color: grey;
+    color: white;
+}
+
+.nav-link {
+    text-decoration: none;
+}
+

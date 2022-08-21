@@ -1,0 +1,66 @@
+.company-img {
+    height: 100px;
+    width: 100px;
+    margin-right: 30px;
+
+}
+
+.exp-header {
+    display: flex;
+    align-items: center;
+}
+
+
+.job-title {
+    margin: 0;
+    padding-right: 5px;
+    padding-bottom: 5px;
+}
+
+.date-range {
+    margin: 0;
+    font-size: 15px;
+    padding-top: 1px;
+    color: #A0A0A0;
+    font-weight: bold;
+}
+
+.company-title {
+    font-size: 18px;
+    padding-bottom: 1px;
+}
+
+.location {
+    margin: 0;
+    font-size: 15px;
+    color: #A0A0A0;
+    font-weight: bold;
+}
+
+.company-title {
+    margin: 0;
+}
+
+.exp-container {
+    margin-bottom: 20px;
+}
+
+.exp-accomplishments {
+    margin-top: 10px;
+    color: #A0A0A0;
+}
+
+
+
+
+
+.collapse {
+    opacity: 0;
+}
+
+
+.show-more-btn {
+    color: #A0A0A0;
+    background-color: transparent;
+    border: 1px solid grey;
+}

@@ -1,0 +1,21 @@
+.college-img {
+    width: 100px;
+    height: 100px;
+}
+
+.gpa {
+    margin: 0;
+    padding-top: 5px;
+}
+
+.degree {
+    margin: 0;
+}
+
+.college-info {
+    display: flex;
+}
+
+.college-details {
+    margin-left: 30px;
+}

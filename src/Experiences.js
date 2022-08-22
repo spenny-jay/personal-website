@@ -13,7 +13,7 @@ const Experiences = () => {
         <Container className="subsection">
             <Row>
                 <Col md={3}>
-                    <h3 className="exp-top">Work Experience</h3>
+                    <h3 className="exp-top">Experience</h3>
                 </Col>
                 <Col md>
                     { experiences.map(experience => <Experience key={experience.id} experience={experience} />) }

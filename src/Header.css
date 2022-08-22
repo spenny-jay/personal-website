@@ -9,7 +9,7 @@
 .header {
     display: flex;
     align-items: center;
-    max-width: 800px;
+    justify-content: center;
 }
 
 .title-container {
@@ -17,7 +17,7 @@
 }
 
 .title { 
-    color: #A0A0A0;
+    color: #718096;
     margin: 0;
     font-size: 20px;
     font-weight: bold;
@@ -31,5 +31,15 @@
 
 .icons {
     padding-top: 10px;
-    color: #A0A0A0;
+    color: #718096;
+}
+
+.icon {
+    margin-right: 4px;
+    text-decoration: none;
+    color: #718096;
+}
+
+.icon:hover {
+    color: black;
 }

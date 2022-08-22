@@ -2,15 +2,19 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import './Navigation.css'
+import sjPath from './images/sj-logo.png'
 
 
 const Navigation = (props) => {
     return ( 
         <>
-            <Navbar bg="light" expand="lg">
+            <Navbar bg="light" expand="lg" fixed="top">
                 <Container>
-                    <Navbar.Brand href="#home">Spencer Josi</Navbar.Brand>
-
+                    <Navbar.Brand href="#home">
+                        <img alt="Spencer Josi" src={sjPath} />
+                    </Navbar.Brand>
+                    <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                    <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="me-auto">
                             <a className="nav-link" href="#summary">Summary</a>
                             <a className="nav-link" href="#education">Education</a>
@@ -23,6 +27,7 @@ const Navigation = (props) => {
                                 id="resume"
                             >Resume</a>
                         </Nav>
+                        </Navbar.Collapse>  
                 </Container>
             </Navbar>
             { props.children }

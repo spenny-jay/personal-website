@@ -4,11 +4,17 @@
 }
 
 .gpa {
+    color: #718096;
     margin: 0;
-    padding-top: 5px;
+    padding-top: 8px;
+}
+
+.bold {
+    font-weight: bold;
 }
 
 .degree {
+    color: #718096;
     margin: 0;
 }
 

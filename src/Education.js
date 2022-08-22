@@ -13,8 +13,8 @@ const Education = () => {
                         <img src={collegeImg} alt="Virginia Tech img" className="college-img"/>
                         <div className="college-details">
                             <h4 className="school-name">Virginia Tech</h4>
-                            <p className="degree">Bachelor of Science (expected Dec 2022)</p>
-                            <p className="gpa">GPA: 3.73 (In-Major GPA: 3.83)</p>
+                            <p className="degree"><span className="bold">Bachelor of Science </span>(expected Dec 2022)</p>
+                            <p className="gpa"><span className="bold">GPA: 3.72 </span>(In-Major GPA: 3.83)</p>
                         </div>
                 </Col>
             </Row>

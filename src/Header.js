@@ -1,7 +1,7 @@
 import { Container } from "react-bootstrap";
 import ProfilePic from './images/pfp.png'
 import "./Header.css";
-import { Github, Linkedin } from 'react-bootstrap-icons';
+import { Github, Linkedin, Envelope } from 'react-bootstrap-icons';
 
 
 const Header = () => {
@@ -18,8 +18,11 @@ const Header = () => {
                 <p className="name">Spencer Josi</p>
                 <p className="title">Full-Stack Software Developer</p>
                 <div className="icons">
-                    <span> GitHub <Github /> </span>
-                    <span>| Linkedin <Linkedin /></span>
+                    <a href="https://github.com/spenny-jay" className="icon"> GitHub <Github /> </a>
+                    <a href="https://www.linkedin.com/in/spencer-josi/" className="icon">| Linkedin <Linkedin /></a>
+                    <a href="mailto:spenceraj@vt.edu" className="icon">
+                        |  Email <Envelope />
+                    </a>
                 </div>
                 
             </div>

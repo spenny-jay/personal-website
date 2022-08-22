@@ -1,6 +1,5 @@
-import './Skills.css'
 import { Container, Row, Col } from 'react-bootstrap';
-
+import './Skills.css';
 const Skills = () => {
     return ( 
         <Container className="subsection">

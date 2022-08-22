@@ -9,11 +9,11 @@ const Experience = ({ experience }) => {
     const showMoreContent = () => {
         if (!showMore) {
             return ( 
-                <span>Show More <CaretDown /></span> 
+                <span className="show-btn">Show More <CaretDown /></span> 
             )
         }
         return ( 
-            <span>Show Less <CaretUp /></span> 
+            <span className="show-btn">Show Less  <CaretUp /></span> 
         )
     }
 
@@ -43,7 +43,7 @@ const Experience = ({ experience }) => {
                 </Col>
             </Row>
             
-            <div className={`exp-accomplishments ${showMore ? 'appear' : 'collapse'}`}>
+            <div className={`exp-accomplishments ${showMore ? 'appear' : 'collapse-exp'}`}>
                 <ul>
                     { experience.accomplishments.map((acc, i) => <li key={i}>{ acc }</li>) }
                 </ul>

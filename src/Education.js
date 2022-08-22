@@ -2,9 +2,13 @@ import { Container, Row, Col } from "react-bootstrap";
 import collegeImg from './images/VT.png';
 import "./Education.css";
 
+/**
+ * Displays information about the college
+ * I attended (gpa, degree, etc.)
+ */
 const Education = () => {
     return ( 
-        <Container className="subsection">
+        <Container id="education" className="subsection">
             <Row>
                 <Col md={3}>
                     <h3 className="subheader">Education</h3>

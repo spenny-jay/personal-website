@@ -3,22 +3,36 @@ import { Col, Row } from 'react-bootstrap';
 import { useState } from 'react';
 import { CaretUp, CaretDown } from 'react-bootstrap-icons';
 
+/**
+ * Displays all of the job experience I have had.
+ * Additionally, the list of accomplishments for each
+ * job entry can be toggled to be displayed or hidden
+ * 
+ * @prop experience: object containing a single
+ * job experience information (startDate, company name, etc.)
+ */
 const Experience = ({ experience }) => {
+    //used to toggle the list of accomplishments for the job experience
     const [showMore, setShowMore] = useState(false);
 
+    /**
+     * Called dynamically when the user interacts with the
+     * Show More/Show Less button. It updates the text 
+     * and icon within the toggle button
+     */
     const showMoreContent = () => {
         if (!showMore) {
             return ( 
-                <span className="show-btn">Show More <CaretDown /></span> 
+                <span>Show More <CaretDown /></span> 
             )
         }
         return ( 
-            <span className="show-btn">Show Less  <CaretUp /></span> 
+            <span>Show Less  <CaretUp /></span> 
         )
     }
 
     return ( 
-        <div className="exp-container">
+        <div id="experience" className="exp-container">
             <Row>
                 <Col xs={8}>
                     <div className="exp-header">

@@ -4,9 +4,10 @@
 }
 
 .gpa {
-    color: #718096;
+    color: #A0A0A0;
     margin: 0;
     padding-top: 8px;
+    font-size: 18px;
 }
 
 .bold {
@@ -14,8 +15,9 @@
 }
 
 .degree {
-    color: #718096;
+    color: #A0A0A0;
     margin: 0;
+    font-size: 18px;
 }
 
 .college-info {

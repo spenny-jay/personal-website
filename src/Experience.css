@@ -19,7 +19,7 @@
     margin: 0;
     font-size: 15px;
     padding-top: 1px;
-    color: #718096;
+    color: #A0A0A0;
     font-weight: bold;
 }
 
@@ -31,7 +31,7 @@
 .location {
     margin: 0;
     font-size: 15px;
-    color: #718096;
+    color: #A0A0A0;
     font-weight: bold;
 }
 
@@ -40,12 +40,12 @@
 }
 
 .exp-container {
-    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .exp-accomplishments {
     margin-top: 10px;
-    color: #718096;
+    color: #A0A0A0;
 }
 
 
@@ -64,12 +64,16 @@
     display: none;
 }
 
-.show-btn {
-    padding: 4px 8px;
-}
 
 .show-more-btn {
-    color: #718096;
-    background-color: transparent;
+    color: white;
+    background-color: #A0A0A0;
     border: 1px solid grey;
+    padding: 4px 8px;
+    min-width: 120px;
 }
+
+.show-more-btn:hover {
+    background-color: gray;
+}
+

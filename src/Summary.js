@@ -1,9 +1,12 @@
 import './Summary.css';
 import { Container, Col, Row } from 'react-bootstrap';
 
+/**
+ * Displays the summary section of the website
+ */
 const Summary = () => {
     return ( 
-        <Container className="subsection">
+        <Container id="summary" className="subsection">
             <Row>
                 <Col md={3}>
                     <h3 className="subheader">Summary</h3>

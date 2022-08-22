@@ -3,10 +3,13 @@ import ProfilePic from './images/pfp.png'
 import "./Header.css";
 import { Github, Linkedin, Envelope } from 'react-bootstrap-icons';
 
-
+/**
+ * The top section containing personal information
+ * like email, name, title, etc.
+ */
 const Header = () => {
     return ( 
-        <Container className="header">
+        <Container id="home" className="header">
             <div className="profile-pic-container">
                 <img 
                     id="profile-pic" 

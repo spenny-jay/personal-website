@@ -4,7 +4,12 @@ import Navbar from 'react-bootstrap/Navbar';
 import './Navigation.css'
 import sjPath from './images/sj-logo.png'
 
-
+/**
+ * Displays the navigation bar on the top of the page to navigate
+ * through the web page. Dynamically resizes according to screen size, 
+ * collapsing the links for smaller screen sizes. Also has a button
+ * to download a resume (stored in Google Drive)
+ */
 const Navigation = (props) => {
     return ( 
         <>

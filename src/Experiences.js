@@ -3,6 +3,11 @@ import Experience from './Experience';
 import './Experiences.css';
 
 const experiences = require('./experiences.json').experiences
+
+/**
+ * Section for work experiences. Iteratively
+ * creates Experience components for each job experience
+ */
 const Experiences = () => {
     return ( 
         <Container className="subsection">
